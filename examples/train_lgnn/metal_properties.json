@@ -1,0 +1,87 @@
+{
+    "metal_properties_integrated": {
+      "Ag": {
+        "atomic_radius": 144,
+        "energy_band": 12,
+        "ionization_potential": 7.54,
+        "band_structure_width": 5.0,
+        "nuclear_charge": 47,
+        "electron_affinity": 1.302
+      },
+      "Ir": {
+        "atomic_radius": 136,
+        "energy_band": 24,
+        "ionization_potential": 9.0,
+        "band_structure_width": 7.0,
+        "nuclear_charge": 77,
+        "electron_affinity": 1.565
+      },
+      "Pd": {
+        "atomic_radius": 137,
+        "energy_band": 10,
+        "ionization_potential": 8.3,
+        "band_structure_width": 5.5,
+        "nuclear_charge": 46,
+        "electron_affinity": 0.557
+      },
+      "Pt": {
+        "atomic_radius": 139,
+        "energy_band": 32,
+        "ionization_potential": 8.9,
+        "band_structure_width": 7.5,
+        "nuclear_charge": 78,
+        "electron_affinity": 2.128
+      },
+      "Ru": {
+        "atomic_radius": 134,
+        "energy_band": 14,
+        "ionization_potential": 7.5,
+        "band_structure_width": 6.0,
+        "nuclear_charge": 44,
+        "electron_affinity": 1.05
+      }
+    },
+
+    "metal_properties_fermi": {
+      "Ag": {
+        "atomic_radius": 144,
+        "energy_band": 3.08828,
+        "ionization_potential": 7.54,
+        "band_structure_width": 5.0,
+        "nuclear_charge": 47,
+        "electron_affinity": 1.302
+      },
+      "Ir": {
+        "atomic_radius": 136,
+        "energy_band": 9.90290,
+        "ionization_potential": 9.0,
+        "band_structure_width": 7.0,
+        "nuclear_charge": 77,
+        "electron_affinity": 1.565
+      },
+      "Pd": {
+        "atomic_radius": 137,
+        "energy_band": 3.18873,
+        "ionization_potential": 8.3,
+        "band_structure_width": 5.5,
+        "nuclear_charge": 46,
+        "electron_affinity": 0.557
+      },
+      "Pt": {
+        "atomic_radius": 139,
+        "energy_band": 7.28511,
+        "ionization_potential": 8.9,
+        "band_structure_width": 7.5,
+        "nuclear_charge": 78,
+        "electron_affinity": 2.128
+      },
+      "Ru": {
+        "atomic_radius": 134,
+        "energy_band": 8.12058,
+        "ionization_potential": 7.5,
+        "band_structure_width": 6.0,
+        "nuclear_charge": 44,
+        "electron_affinity": 1.05
+      }
+    }
+  }
