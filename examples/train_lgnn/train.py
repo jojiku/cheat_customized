@@ -24,14 +24,14 @@ roll_val_width = 20  # mean of [current_epoch-roll_val_width/2 : current_epoch+r
 patience = 100
 report_every = 25
 
-# set lGNN architecture
-arch = {'n_conv_layers': 3,  # number of gated graph convolution layers
-        'n_hidden_layers': 0,  # number of hidden layers
-        'conv_dim': 18,  # feature dimension w. zero-padding
-        'act': 'relu', # activation function in hidden layers.
-       }
+arch = {
+    'n_conv_layers': 3,  # number of gated graph convolution layers
+    'n_hidden_layers': 0,  # number of hidden layers
+    'conv_dim': 18,  # feature dimension w. zero-padding
+    'act': 'relu', 
+    'harmonic': True, 
+}
 
-# load model, optimizer, and dataloaders
 model = lGNN(arch=arch)
 opt = torch.optim.AdamW(model.parameters(), lr=learning_rate)
 train_loader = DataLoader(train_graphs, batch_size=batch_size, drop_last=True, shuffle=True)
@@ -94,5 +94,3 @@ main_ax.set(ylim=(0.025,0.125))
 main_ax.legend()
 
 plt.savefig(f'{filename}_curve.png')
-
-

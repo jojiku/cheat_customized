@@ -38,5 +38,3 @@ for s in ['train','val','test']:
 
     with open(f'graphs/{s}.graphs', 'wb') as output:
         pickle.dump(graph_list, output)
-
-
